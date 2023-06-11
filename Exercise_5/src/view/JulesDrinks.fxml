@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FruitController">
+   <children>
+      <Button fx:id="btn1" layoutX="103.0" layoutY="211.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="51.0" prefWidth="136.0" text="Coke">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="172.0" fitWidth="200.0" layoutX="86.0" layoutY="23.0">
+         <image>
+            <Image url="@../Exercise_4/src/images/Coke.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn2" layoutX="411.0" layoutY="211.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="51.0" prefWidth="124.0" text="Spite">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="373.0" layoutY="17.0">
+         <image>
+            <Image url="@../Exercise_4/src/images/Spite.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn3" layoutX="631.0" layoutY="202.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="51.0" prefWidth="203.0" text="Mountain dew">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="139.0" fitWidth="200.0" layoutX="634.0" layoutY="40.0">
+         <image>
+            <Image url="@../Exercise_4/src/images/Mountaindew.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn4" layoutX="256.0" layoutY="451.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="52.0" prefWidth="136.0" text="Iced tea">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="172.0" fitWidth="200.0" layoutX="224.0" layoutY="275.0">
+         <image>
+            <Image url="@../Exercise_4/src/images/Icedtea.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn5" layoutX="564.0" layoutY="447.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="51.0" prefWidth="117.0" text="Coffee">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="160.0" fitWidth="200.0" layoutX="534.0" layoutY="281.0">
+         <image>
+            <Image url="@../Exercise_4/src/images/Coffee.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
